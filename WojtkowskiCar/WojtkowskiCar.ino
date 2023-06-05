@@ -47,8 +47,7 @@ void setup()
 {
   Serial.begin( 9600 );
   pinMode(pinLF, OUTPUT); pinMode(pinLB, OUTPUT); pinMode(pinRF, OUTPUT); pinMode(pinRB, OUTPUT); // direction manip (OUTPUT)
-  pinMode(pinX, INPUT); pinMode(pinY, INPUT); pinMode( pinP, INPUT);
-  digitalWrite( pinP, HIGH ); // read joystick (INPUT)
+  pinMode(pinX, INPUT); pinMode(pinY, INPUT); pinMode( pinP, INPUT); digitalWrite( pinP, HIGH ); // read joystick (INPUT)
   pinMode(pinPA, OUTPUT);
   delay(2000);
 }
